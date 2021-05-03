@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-right: 0%;
+}
+
+/*네비게이션 시작*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(139,69,19);
+    padding: 8px 12px;
+
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li{
+    padding: 8px 30px;
+}
+.navbar_menu li:hover {
+    background-color: black;
+    border-radius: 4px;
+    transition: 1.2s;
+}
+.navbar_icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 0;
+    font-size: 20px;
+
+}
+.navbar_icons li {
+    padding: 8px 12px;
+    
+}
+.navbar_toogleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color:white;
+    
+}
+
+@media only screen and (min-width: 2200px) {
+    .typing {
+        font-size: 6rem;
+    }
+    .navbar_menu li {
+        font-size: 2rem;
+        padding: 15px 50px;
+    }
+    .navbar_logo img{
+        width: 20rem;
+        height: 6rem;
+    }
+    .navbar_icons {
+        font-size: 2rem;
+    }
+    
+ }
+.ivyspec {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.content {
+    height: 550px;
+    width: 830px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: solid black;
+  }
+.content h1 {
+    text-align: center;
+}
+.content h2 {
+    text-align: center;
+}
+.content img {
+    padding-left:35%;
+    padding-right: 35%;
+}
+.content ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+  
+  
+
+  .content1 {
+    height: 550px;
+    width: 830px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: solid black;
+  }
+.content1 h1 {
+    text-align: center;
+}
+.content1 h2 {
+    text-align: center;
+}
+.content1 img {
+    padding-left:35%;
+    padding-right: 35%;
+}
+.content1 ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+  
+
+  .content2 {
+    height: 550px;
+    width: 830px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: solid black;
+  }
+.content2 h2 {
+    text-align: center;
+}
+.content2 h2 {
+    text-align: center;
+}
+.content2 img {
+    padding-left:35%;
+    padding-right: 35%;
+}
+.content2 ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+  
+  
+
+  .content3 {
+    height: 550px;
+    width: 830px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: solid black;
+  }
+.content3 h1 {
+    text-align: center;
+}
+.content3 h2 {
+    text-align: center;
+}
+.content3 img {
+    padding-left:35%;
+    padding-right: 35%;
+}
+.content3 ul {
+    text-align: center;
+    list-style-type: none;
+}
+  @keyframes bounce {
+    0%, 100%, 20%, 53%, 80% {
+      transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+      transform: translate3d(0, 0, 0)
+    }
+    40%,
+    43% {
+      transition-timing-function: cubic-bezier(0.755, .050, .855, .060);
+      transform: translate3d(0, -30px, 0)
+    }
+    70% {
+      transition-timing-function: cubic-bezier(0.755, .050, .855, .060);
+      transform: translate3d(0, -15px, 0)
+    }
+    90% {
+      transform: translate3d(0, -4px, 0)
+    }
+  }
+  
+  .bounce {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: bounce;
+    transform-origin: center bottom
+  }
+  
+ 
+
+  .footer {
+    width: 100%;
+    background: #333333;
+    padding-bottom: 56px;
+    clear: both;
+    display: block;
+    width: 100%;
+    font-family: "Noto Sans Kr","Malgun Gothic","돋움";
+    font-size: 16px;
+    color: #414042;
+    letter-spacing: -1px;
+    }
+    .footer_logo {
+        border-bottom: 1px solid #4f4f4f;
+        height: 86px;
+        padding: 30px 0px;
+        box-sizing: border-box;
+    }
+    .logo_inner {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        text-align: center;
+        
+    }
+    .logo_inner img{
+        
+            border: 0px;
+            vertical-align: top;
+            text-align: center;
+        
+    }
+    .footer_box {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .call {
+        height: 47px;
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+    .call span {
+        display: block;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+    }
+    .footer_box p {
+        color: #777b7e;
+        font-size: 14px;
+        text-align: center;
+    }
+    p.address span {
+        vertical-align: middle;
+    }
+    .footer_box p span.mg {
+        display: inline-block;
+        margin: 0px 8px;
+        font-size: 10px;
+    }
+    .footer_box div.sns {
+        text-align: center;
+    }
+    .footer_box div.sns a {
+        display: inline-block;
+        padding: 10px 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }

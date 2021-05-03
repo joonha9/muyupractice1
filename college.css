@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-right: 0%;
+}
+
+/*네비게이션 시작*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(139,69,19);
+    padding: 8px 12px;
+
+}
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li{
+    padding: 8px 30px;
+}
+.navbar_menu li:hover {
+    background-color: black;
+    border-radius: 4px;
+    transition: 1.2s;
+}
+.navbar_icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 0;
+    font-size: 20px;
+
+}
+.navbar_icons li {
+    padding: 8px 12px;
+    
+}
+.navbar_toogleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color:white;
+    
+}
+@media only screen and (min-width: 2200px) {
+    .typing {
+        font-size: 6rem;
+    }
+    .navbar_menu li {
+        font-size: 2rem;
+        padding: 15px 50px;
+    }
+    .navbar_logo img{
+        width: 20rem;
+        height: 6rem;
+    }
+    .navbar_icons {
+        font-size: 2rem;
+    }
+    
+ }
+
+.title h1 {
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Gothic A1', sans-serif;
+}
+.title h3 {
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 1.2rem;
+    font-family: 'Gothic A1', sans-serif;
+}
+.title p {
+    text-align: center;
+    padding: 0.1rem;
+}
+.US img {
+    width: 80%;
+    height: 700px;
+    position: flex;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+.ivyleague {
+    padding-top: 7%;
+    padding-left: 3%;
+    font-family: 'Gothic A1', sans-serif;
+    
+}
+.ivytop {
+    display: inline-block;
+    padding-right: 2%;
+}
+.ivytop h5 {
+  font: italic;
+  font-size: 20px;
+}
+.ivyimg {
+    display: inline-block;
+    
+}
+
+.newivyleague {
+    padding-top:3%;
+    padding-left: 3%;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.newivytop {
+    display: inline-block;
+    padding-right: 2%;
+}
+.newivytop h5{
+  font: italic;
+  font-size: 20px;
+}
+.newivyimg{
+    display: inline-block;
+    
+} 
+
+
+.publicschools {
+    padding-top:3%;
+    padding-left: 3%;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.publictop {
+    display: inline-block;
+    padding-right: 2%;
+}
+.publictop h5{
+  font: italic;
+  font-size: 20px;
+}
+.publicimg{
+    display: inline-block;
+    
+   
+}
+
+.libcollege {
+    padding-top:3%;
+    padding-left: 3%;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.libcoltop {
+    display: inline-block;
+    padding-right: 2%;
+}
+.libcoltop h5{
+  font: italic;
+  font-size: 20px;
+}
+.libcolimg{
+    display: inline-block;
+    
+   
+}
+
+@media only screen and (min-width: 650px) {
+    .ivyleague {
+        text-align: center;
+    }
+    .newivyleague {
+        text-align: center;
+    }
+    .publicschools {
+        text-align: center;
+        
+    }
+    .libcollege {
+        text-align: center;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    background: #333333;
+    padding-bottom: 56px;
+    clear: both;
+    display: block;
+    width: 100%;
+    font-family: "Noto Sans Kr","Malgun Gothic","돋움";
+    font-size: 16px;
+    color: #414042;
+    letter-spacing: -1px;
+    }
+    .footer_logo {
+        border-bottom: 1px solid #4f4f4f;
+        height: 86px;
+        padding: 30px 0px;
+        box-sizing: border-box;
+    }
+    .logo_inner {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        text-align: center;
+        
+    }
+    .logo_inner img{
+        
+            border: 0px;
+            vertical-align: top;
+            text-align: center;
+        
+    }
+    .footer_box {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .call {
+        height: 47px;
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+    .call span {
+        display: block;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+    }
+    .footer_box p {
+        color: #777b7e;
+        font-size: 14px;
+        text-align: center;
+    }
+    p.address span {
+        vertical-align: middle;
+    }
+    .footer_box p span.mg {
+        display: inline-block;
+        margin: 0px 8px;
+        font-size: 10px;
+    }
+    .footer_box div.sns {
+        text-align: center;
+    }
+    .footer_box div.sns a {
+        display: inline-block;
+        padding: 10px 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+

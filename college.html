@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="logo.png" rel="shortcut icon" type="image/x-icon">
+    <meta name="viewport" content="1120">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9171d47427.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel ="s" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="college.css">
+    <title>무유어드바이스 (대학교)</title>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src ="college.js" defer></script>
+</head>
+<body>
+    <nav class = "navbar">
+        <div class = "navbar_logo">
+            <img src = "logo.png" width="220rem"; height="65rem">
+
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="home.html">홈</a></li>
+            <li><a href="programinfo.html">프로그램 정보</a></li>
+            <li><a href="college.html">대학교 정보</a></li>
+            <li><a href="company.html">회사 소개</a></li>
+            
+
+        </ul>
+        <ul class="navbar_icons">
+            <li><a href="collegeen.html"><i class="fas fa-language"></i></li></a></li>
+            <li><a href="https://www.youtube.com/channel/UCG_CYs4hmxEyNuO1H_zP6pg" target="_blank"><i class="fab fa-youtube"></i>
+                
+            </i></a></li>
+            <li><a href = "https://www.instagram.com/muyu_advice/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="mailto:muyuadvice@gmail.com?Subject=무유어드바이스관련 문의드립니다.%20" target="_top, _blank" ><i class="fas fa-envelope-square"></i></a></li>
+
+        </ul>
+        <a href="" class="navbar_toogleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+            
+    </nav>
+
+    <div class = "title">
+        <h1>미국 대학 State By State</h1>
+        <h3>미국은 총 50개 주(state)로 나누어져 있습니다. 각 주에는 주립학교와 사랍학교 등</h3>
+        <h3>각 주를 대표하는 여러 대학이 존재하고 어느 주의 어느 대학을 가는지에 따라</h3>
+        <h3>취업의 가능성을 좌지우지합니다.</h3>
+        <h3>그럼 저희와 함께 미국대학에 대해 알아보러 가 보시죠!</h3>
+        <p>*현재는 아이비리그 대학, 뉴아이비리그 대학, 주립대학만 열람가능합니다.*</p>
+    </div>
+    
+
+
+<!--https://www.amcharts.com/visited_states/#US-TN-->
+    <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/usaHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 100%; height: 650px; padding-top: 2%; padding-bottom: 5%;"></div>
+
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "light",
+panEventsEnabled : true,
+backgroundColor : "#535364",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "usaHigh",
+getAreasFromMap : true,
+areas :
+[]
+},
+areasSettings : {
+autoZoom : true,
+color : "#B4B4B7",
+colorSolid : "#84ADE9",
+selectedColor : "#84ADE9",
+outlineColor : "#666666",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+
+
+<div class = "ivyleague">
+    <div class = "ivytop">
+        <h1>아이비리그 대학교</h1>
+        <h3>아이비리그 대학교란?</h3>
+        <h4>아이비 리그(영어: Ivy League)라는 명칭은 본래 미국 북동부에 위치한 8개 사립 대학의 모임입니다.</h4>
+        <h4>"아이비 리그"라는 용어는 학문적 우수성, 까다로운 입학 조건, 사회 엘리트주의로 함축됩니다. </h4>
+        <h4>아이비 리그는 "아주 오래된 8개 대학"("Ancient Eight")이라는 또 다른 애칭으로 부르기도 합니다.</h4>
+        <h5>자세한 정보는 옆(or 아래) 사진을 클릭해 주세요!</h5>
+    </div>
+    <div class = "ivyimg">
+        <a href = "ivy.html">
+        <img src = "ivyleague.jpg" width="600px">
+        </a>
+    </div>
+
+</div>
+<hr />
+<div class = "newivyleague">
+    <div class = "newivyimg">
+        <a href = "newivy.html">
+            <img src = "newivy.jpg" width="600px" height="400px">
+        </a>
+    </div>
+    <div class = "newivytop">
+        <h1>뉴아이비리그 대학교</h1>
+        <h3>뉴아이비리그 대학교란?</h3>
+        <h4>뉴아이비리그 대학교는 우수한 학생들과 교수, 교직원 거기에 걸 맞는 우수한 학교시설을 갖춘 대학들입니다.</h4>
+        <h4>미국의 뉴스위크지는 미국의 25개의 신흥 명문대학들을 뉴아이비리그라고 소개하였습니다.</h4>
+        <h4>뉴아이비리그의 대표적인 학교는 Boston College, Emory University, UCLA 가 있습니다</h4>
+        <h5>자세한 정보는 옆(or 위) 사진을 클릭해 주세요!</h5>
+    </div>
+
+    <!--<div class = "newivyimg">
+        <a href = "newivy.html">
+            <img src = "newivy.jpg" width="600px" height="400px">
+        </a>
+    </div>-->
+
+</div>
+<hr />
+<div class = "publicschools">
+    <div class = "publictop">
+        <h1>미국 주립대학교</h1>
+        <h3>주립대학교란?</h3>
+        <h4>미국 주 정부에서 운영하는 4년 제 종합학교입니다.</h4>
+        <h4>약 300여개의 주립대학이 존재하며 많은 주립대학들이 상위 랭킹에 포진되어 있습니다. &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; </h4>
+        <h4>주립대학의 장점은 대체적으로 저렴한 학비, 편입 우선 선발제도 등이 있습니다.</h4>
+        <h5>자세한 정보는 옆(or 아래) 사진을 클릭해 주세요!</h5>
+        <br>
+        
+    </div>
+
+    <div class = "publicimg">
+        <a href = "public.html">
+            <img src = "public.jpg" width="600px" height="400px">
+        </a>
+    </div>
+
+</div>
+<hr />
+<div class = "libcollege">
+    <div class = "libcolimg">
+        <a href = "libcol.html">
+            <img src = "libcol.jpg" width="600px" height="400px">
+        </a>
+    </div>
+    <div class = "libcoltop">
+        <h1>리버럴 아츠 칼리지</h1>
+        <h3>리버럴 아츠 칼리지란?</h3>
+        <h4>리버럴 아츠 칼리지란 인문학 및 순수 과학 분야의 학부과정을 중점적으로 다루는 대학입니다.</h4>
+        <h4>한국에서는 학부중심대학으로 불리기도 하며 취업 또는 기술 습득과 달리 폭 넓은 일반 지식을 배우며 </h4>
+        <h4>일반적인 지적 능력을 개발하는 것을 목표로 합니다.</h4>
+        <h5>자세한 정보는 옆(or 위) 사진을 클릭해 주세요!</h5>
+    </div>
+
+    <!--<div class = "newivyimg">
+        <a href = "newivy.html">
+            <img src = "newivy.jpg" width="600px" height="400px">
+        </a>
+    </div>-->
+
+</div>
+<div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+</div>
+<div class="footer">
+    <div class="footer_logo">
+        <div class="logo_inner">
+        <img src="logo.png" width="150px" height="50px">
+        </div>
+    </div>
+    <div class="footer_box">
+        <div class="call">
+            <span>문의이메일 : muyuadvice@gamil.com</span>
+        </div>
+        <div class="call">
+            <span>문의카톡아이디 : lapa9</span>
+        </div>
+        
+        <p class="address">
+            <span>무유어드바이스</span>
+            <span class="mg">|</span>
+            <span>대표 : 권준하</span>
+        </p>
+        <div class="sns">
+            <a href="https://www.youtube.com/channel/UCG_CYs4hmxEyNuO1H_zP6pg" target="_blank"><i class="fab fa-youtube"></i>
+                
+            </i></a>
+            <a href = "https://www.instagram.com/muyu_advice/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:muyuadvice@gmail.com?Subject=무유어드바이스관련 문의드립니다.%20" target="_top, _blank"><i class="fas fa-envelope-square"></i></a>
+        </div>
+    </div>
+    
+  </div>
+
+
+
+</body>
+</html>
